@@ -4,13 +4,12 @@ import telegram
 import sys
 from time import sleep
 
-feed_list =["https://yourfeed.com/feed/",
-            ]
+feed_list =["https://yourfeed.com/feed/","https://www.news18.com/rss/india.xml"]
 
 last_feeds = pickle.load(open("db.p", 'rb'))
 fee_links = []
 
-bot = telegram.Bot(token='YOUR_TOKEN')
+bot = telegram.Bot(token='1296488130:AAFWbVyse8ls5xNLhzrnKCkL8kFXekN-mkc')
 
 print(last_feeds)
 print("-----Last feeds---")
