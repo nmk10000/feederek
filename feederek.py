@@ -30,7 +30,7 @@ def feederek():
 
 
                 message = str(fee_title +"\n" + entry_title +"\n" + entry_id)
-                bot.sendMessage(chat_id="@CHANNEL_NAME", text=message)
+                bot.sendMessage(chat_id="@nnnnnnnnnhgf", text=message)
 
     pickle.dump(fee_links, open("db.p", 'wb'))
     sys.exit()
